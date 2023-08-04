@@ -1,0 +1,1787 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style type="text/css">
+
+/*
+     ######   ######   ######
+    ##    ## ##    ## ##    ##
+    ##       ##       ##
+    ##        ######   ######
+    ##             ##       ##
+    ##    ## ##    ## ##    ##
+     ######   ######   ######
+*/
+        @font-face {
+            font-family: 'Century Gothic Regular';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Century Gothic Regular'), url('GOTHIC.woff') format('woff');
+        }
+        @font-face {
+            font-family: 'Century Gothic Regular';
+            font-style: normal;
+            font-weight: bold;
+            src: local('Century Gothic Regular'), url('GOTHICB.woff') format('woff');
+        }
+        body {
+            font-family: 'Century Gothic Regular','CenturyGothic','AppleGothic',sans-serif;
+        }
+        #alignButton.left {
+            position:absolute;
+            bottom:5px;
+            left:5px;
+        }
+        #alignButton.right {
+            position:absolute;
+            bottom:5px;
+            right:5px;
+        }
+        #maintable {
+            width:100%;
+            height:100%;
+            display:flex;
+            flex-direction:row;
+        }
+        
+        #col_livestats {
+            vertical-align:top;
+            flex-grow:1;
+            display:flex;
+            flex-direction: column;
+            flex-wrap:wrap-reverse;
+            justify-content:flex-start;
+            align-content:flex-start;
+            /* flex-flow: column wrap-reverse; */
+            /* align-items:flex-end; */
+            padding-right:10px;
+            padding-left:10px;
+        }
+        /* left-aligning everything for screens on the right */
+        #maintable.left { flex-direction:row-reverse; }
+        #maintable.left #col_livestats {
+            align-items:flex-start;
+            flex-wrap:wrap;
+        }
+        #maintable.left #col_roster { text-align:right; }
+        #roster {
+            overflow-y:auto;
+            height:100%;
+            position:relative;
+        }
+        
+        #col_roster {
+            position:relative;
+        }
+        #col_roster:after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-image: linear-gradient(to bottom, rgba(255,255,255,0), #fff);
+            pointer-events: none;
+        }
+        #roster::-webkit-scrollbar { width: 0 !important }
+        #roster { overflow: -moz-scrollbars-none; }
+        #roster { -ms-overflow-style: none; }
+        #mystats, .squadstatswrapper {
+            /* border:1px solid blue; */
+            max-width:200px;
+            display:inline-flex;
+            flex-direction:column;
+            text-align:left;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+        #killsandhs {
+            display:flex;
+            flex-direction: row wrap;
+            justify-content: space-between;
+        }
+        .statsname {
+            font-weight: bold;
+        }
+        #roster_header {
+            font-weight:bold;
+        }
+        .rosterblank {
+            display:none;
+        }
+        .gearimg {
+            width:45px;
+        }
+        #weapons {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:stretch;
+            flex-basis:100%;
+        }
+        #wpnA, #wpnB {
+            /* border:1px solid #0005; */
+            padding-left:15%;
+            padding-right:15%;
+            /* overflow:hidden; */
+            margin-top:-15%;
+            margin-bottom:-15%;
+        }
+        .wpnimg {
+            max-width:95%;
+            min-width:95%;
+            max-height:100%;
+            position:relative;
+            top:50%;
+            /* border:1px solid red; */
+            transform: translateY(-50%) rotate(-40deg);
+        }
+        #inventory img {
+            width:40px;
+        }
+    </style>
+  </head>
+  <body>
+<!--
+    ##     ## ######## ##     ## ##
+    ##     ##    ##    ###   ### ##
+    ##     ##    ##    #### #### ##
+    #########    ##    ## ### ## ##
+    ##     ##    ##    ##     ## ##
+    ##     ##    ##    ##     ## ##
+    ##     ##    ##    ##     ## ########
+-->
+    <div id="maintable">
+        <div id="col_roster"><div id="roster"></div></div>
+        <div id="col_livestats">
+            <div id="mystats">
+                <span id="myName" class="statsname"></span>
+                <div id="killsandhs">
+                    <div>Kills: <span id="kills">?</span></div>
+                    <div>Headshots: <span id="headshots">?</span></div>
+                </div>
+                <div>Total damage dealt: <span id="damagedealt">?</span></div>
+                <div>Max kill distance: <span id="maxkilldist">?</span>m</div>
+                <div id="gear">
+                    <img class="gearimg" id="img_helmet_me"/>
+                    <img class="gearimg" id="img_vest_me"/>
+                    <img class="gearimg" id="img_bag_me"/>
+                    <img class="gearimg" id="img_ghillie_me"/>
+                </div>
+                <div id="weapons">
+                    <div id="wpnA"><img class="wpnimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="/></div>
+                    <div id="wpnB"><img class="wpnimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="/></div>
+                </div>
+                <div id="inventory"></div>
+            </div>
+            <!-- <div id="squad_livestats"></div> -->
+        </div>
+        <div id="col_map" width="10%;">
+            <canvas style="border:1px solid #000;" id="mapcanvas"><p>lol i guess you're using a browser from the 70s or something</p></canvas>
+        </div>
+    </div>
+    <script>
+/*
+     ######   ##        #######  ########     ###    ##        ######
+    ##    ##  ##       ##     ## ##     ##   ## ##   ##       ##    ##
+    ##        ##       ##     ## ##     ##  ##   ##  ##       ##
+    ##   #### ##       ##     ## ########  ##     ## ##        ######
+    ##    ##  ##       ##     ## ##     ## ######### ##             ##
+    ##    ##  ##       ##     ## ##     ## ##     ## ##       ##    ##
+     ######   ########  #######  ########  ##     ## ########  ######
+*/
+
+    var minPixelsToAnimate = 1;
+
+    var myName = getUrlPlayerName();
+    var curPhase  = "lobby";
+    var curMode   = "solo";
+    var curMap    = "";
+    var curMapSize = 8000;
+    var curFlightPath  = undefined;
+    var curLocs  = [];
+    var prevLocs = [];
+
+    var curDamageDealt = 0;
+    var curKills = 0;
+    var curHeadshots = 0;
+    var curMaxKillDist = 0;
+
+    var curInvRaw = "";
+    var curInv = buildEmptyInventory();
+
+    var rosterEverGot = false;
+    var curRoster = [];
+    var curAlives = "";
+
+    var curWhite = undefined;
+    var curBlue  = undefined;
+    var curRed   = undefined;
+
+    var prevWhite = undefined;
+    var prevBlue  = undefined;
+    var prevRed   = undefined;
+
+    var calcFlightPath = undefined;
+    var calcLandingLines = undefined;
+    var prevCalcFlightPath = undefined;
+    var prevCalcLandingLines = undefined;
+    var animateFlightPath = false;
+
+    var curSquad     = [];
+    var prevSquad    = [];
+    var curSquadInfo = [];
+
+    var blueZoneColor = '#00F4';
+    var redZoneColor  = '#F004';
+
+    var curViewBox = OUTSIDEVIEWBOX();
+    var renderViewBox = curViewBox;
+    var prevViewBox = curViewBox;
+
+
+
+
+/*
+    ########  ########     ###    ##      ## #### ##    ##  ######
+    ##     ## ##     ##   ## ##   ##  ##  ##  ##  ###   ## ##    ##
+    ##     ## ##     ##  ##   ##  ##  ##  ##  ##  ####  ## ##
+    ##     ## ########  ##     ## ##  ##  ##  ##  ## ## ## ##   ####
+    ##     ## ##   ##   ######### ##  ##  ##  ##  ##  #### ##    ##
+    ##     ## ##    ##  ##     ## ##  ##  ##  ##  ##   ### ##    ##
+    ########  ##     ## ##     ##  ###  ###  #### ##    ##  ######
+*/
+
+    var canvas = document.getElementsByTagName('canvas')[0];
+    canvas.width  = Math.min(window.innerWidth, window.innerHeight)-20;
+    canvas.height = Math.min(window.innerWidth, window.innerHeight)-20;
+    var ctx = canvas.getContext("2d");
+    var img = new Image();
+    var imageLoaded = false;
+    img.onload = function() {
+        imageLoaded = true;
+        initiateRedraw();
+    };
+
+    function initiateRedraw() {
+        if (!imageLoaded) return;
+        if (shouldAnimate()) {
+            // animate through redrawing
+            $({foo: 0}).animate({foo: 1}, {
+                duration: 1000,
+                easing: 'linear',
+                queue: false,
+                step: function(val) {
+                    redrawEverything(val);
+                }
+            });
+        } else {
+            // just redraw once
+            redrawEverything();
+        }
+    }
+
+    var viewbox = {
+        top: 0,
+        left: 0,
+        bottom: 1000,
+        right: 1000
+    };
+    function ZEROVIEWBOX(x, y) {
+        return {
+            top:    y,
+            left:   x,
+            bottom: y,
+            right:  x
+        };        
+    }
+    function OUTSIDEVIEWBOX() {
+        return {
+            top:    0,
+            left:   0,
+            bottom: curMapSize,
+            right:  curMapSize
+        };
+    }
+
+    function expandAndSquare(box, padding) {
+        var cx  = (box.left + box.right) / 2;
+        var cy  = (box.top + box.bottom) / 2;
+        var wid = box.right - box.left;
+        var hgt = box.bottom - box.top;
+
+        var newWid = Math.max(wid,hgt) * padding;
+        var newWidHalf = newWid/2;
+
+        return {
+            top:    cy - newWidHalf,
+            left:   cx - newWidHalf,
+            bottom: cy + newWidHalf,
+            right:  cx + newWidHalf,
+        };
+    }
+
+    function pushInside(box) {
+        if (box.top < 0) {
+            box.bottom += -box.top; // move bottom DOWN
+            box.top = 0;
+        }
+        if (box.left < 0) {
+            box.right += -box.left; // move right RIGHT
+            box.left = 0;
+        }
+        if (box.bottom > curMapSize) {
+            box.top += (box.bottom - curMapSize); // move top UP
+            box.bottom = curMapSize;
+        }
+        if (box.right > curMapSize) {
+            box.left += (box.right - curMapSize); // move left LEFT
+            box.right = curMapSize;
+        }
+        return box;
+    }
+
+    function intersectEdges(box) {
+        var changed = false;
+        if (box.top < 0) {
+            box.top = 0;
+            changed = true;
+        }
+        if (box.left < 0) {
+            box.left = 0;
+            changed = true;
+        }
+        if (box.bottom > curMapSize) {
+            box.bottom = curMapSize;
+            changed = true;
+        }
+        if (box.right > curMapSize) {
+            box.right = curMapSize;
+            changed = true;
+        }
+        return changed;
+    }
+
+    var viewbox_expand_amount = 1.15;
+    function CALCULATEVIEWBOX() {
+        if (curPhase==="lobby"
+         || curPhase==="loading_screen"
+         || curPhase==="airfield"
+         || curLocs.length===0)
+            return OUTSIDEVIEWBOX();
+
+        // start with some player position
+        var box = ZEROVIEWBOX(curLocs[0].x, curLocs[0].y);
+        
+        // this will expand the box to contain any given point
+        var includePoint = function(x, y) {
+            box.top    = Math.min(box.top,  y);
+            box.left   = Math.min(box.left, x);
+            box.bottom = Math.max(box.bottom, y);
+            box.right  = Math.max(box.right, x);
+        };
+
+        // this will expand the box to contain any given zone
+        var includeZone = function(zonetext) {
+            if (isBlank(zonetext)) return;
+            var zone = JSON.parse(zonetext);
+            includePoint(zone.x - zone.radius, zone.y - zone.radius);
+            includePoint(zone.x + zone.radius, zone.y + zone.radius);
+        }
+
+        // make sure that all player positions are in the box
+        for (var i=0; i<curLocs.length; i++)
+            includePoint(curLocs[i].x, curLocs[i].y);
+
+        // make sure that zones are in the box
+        includeZone(curWhite);
+        includeZone(curBlue);
+
+        // at this point, the box exactly bounds the players and the outer zone
+        // drawBox(box, '#F00');
+
+        // if it's too big, just return the outer box
+        if ((box.right - box.left) >= curMapSize)
+            return OUTSIDEVIEWBOX();
+
+        // if it's zero-sized, just return the outer box
+        if (box.right == box.left)
+            return OUTSIDEVIEWBOX();
+
+        // 'square' the box and expand it to include padding
+        box = expandAndSquare(box, viewbox_expand_amount);
+        // drawBox(box, '#FF0');
+
+        // 'intersect' the box with the edges, so there is no overlap
+        if (intersectEdges(box)) {
+            // intersecting changed the box. re-square it and make sure it's
+            // still inside the bounds.
+
+            // re-square (but don't expand)
+            box = expandAndSquare(box, 1);
+
+            // push the box inside the bounds
+            box = pushInside(box);
+        }
+
+        // all done
+        return box;
+    }
+
+    function defaultViewBox() {
+        curViewBox    = OUTSIDEVIEWBOX();
+        renderViewBox = OUTSIDEVIEWBOX();
+        prevViewBox   = OUTSIDEVIEWBOX();
+    }
+
+    function recalculateViewBox() {
+        // save the previous view box (for animations)
+        prevViewBox = curViewBox;
+        if (isBlank(prevViewBox)) prevViewBox = OUTSIDEVIEWBOX();
+        
+        // recalculate curViewBox
+        curViewBox = CALCULATEVIEWBOX();
+    }
+
+    function box_to_canvas(box) {
+        return {
+            top:    map_to_canvas(box.top),
+            left:   map_to_canvas(box.left),
+            bottom: map_to_canvas(box.bottom),
+            right:  map_to_canvas(box.right)
+        };
+    }
+
+    function drawBox(box, color="#0F0") {
+        if (isBlank(box)) return;
+        var b = box_to_canvas(box);
+        ctx.beginPath();
+        ctx.rect(
+            b.left, b.top,
+            (b.right-b.left),
+            (b.bottom-b.top)
+        );
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        ctx.closePath();
+        ctx.lineWidth = 1;
+    }
+
+    function diffBox(boxA, boxB) {
+        if (isBlank(boxA)) return true;
+        if (isBlank(boxB)) return true;
+        if (boxA.top    !== boxB.top)    return true;
+        if (boxA.left   !== boxB.left)   return true;
+        if (boxA.bottom !== boxB.bottom) return true;
+        if (boxA.right  !== boxB.right)  return true;
+        return false;
+    }
+
+    function betweenBox(boxA, boxB, percent) {
+        return {
+            top:    getBetween(boxA.top,    boxB.top,    percent),
+            left:   getBetween(boxA.left,   boxB.left,   percent),
+            bottom: getBetween(boxA.bottom, boxB.bottom, percent),
+            right:  getBetween(boxA.right,  boxB.right,  percent)
+        };
+    }
+
+    function DRAWVIEWBOX(percent) {
+        if (isBlank(percent) || !diffBox(curViewBox, prevViewBox)) {
+            drawBox(curViewBox);
+        } else {
+            // we are animating the view box
+            var box = betweenBox(prevViewBox, curViewBox, percent);
+            drawBox(box);
+        }
+    }
+
+    function calculateRenderViewBox(percent) {
+        renderViewBox = {
+            top:    getBetween(prevViewBox.top,    curViewBox.top,    percent),
+            left:   getBetween(prevViewBox.left,   curViewBox.left,   percent),
+            bottom: getBetween(prevViewBox.bottom, curViewBox.bottom, percent),
+            right:  getBetween(prevViewBox.right,  curViewBox.right,  percent)
+        };
+    }
+
+    function redrawEverything(percent) {
+
+        // figure out the temporary view box for this frame
+        if (notBlank(percent)) calculateRenderViewBox(percent);
+        else renderViewBox = curViewBox;
+        
+        // clear the canvas with the map image
+        // (animation here is organised by the view box)
+        drawMap();
+
+        // draw flight paths (if appropriate)
+        drawFlightPaths(percent);
+
+        // draw zones
+        drawZones(percent);
+        
+        // write phase and mode
+        drawPhase();
+        drawMode();
+
+        // draw locations
+        drawLocations(percent);
+
+        // DRAWVIEWBOX(percent);
+    }
+
+    function orientForCamera(x, y) {
+        var viewBox = renderViewBox;
+        var z = canvas.scrollWidth / (viewBox.right - viewBox.left);
+        var newX = z*(x-viewBox.left);
+        var newY = z*(y-viewBox.top);
+        return [newX, newY, z];
+    }
+
+    function drawMap() {
+        var [sx, sy] = orientForCamera(0,0);
+        var zz = curMapSize / (renderViewBox.right - renderViewBox.left);
+        ctx.drawImage(img, sx, sy, zz*canvas.scrollWidth, zz*canvas.scrollHeight);
+    }
+
+    function drawPhase() {
+        ctx.textAlign = "left";
+        ctx.font = "20px Century Gothic Regular"
+        ctx.fillStyle = 'white';
+        ctx.fillText(nicePhase(), 10, canvas.height-15);
+    }
+
+    function drawMode() {
+        if (!drawModeForPhase(curPhase)) return;
+        ctx.textAlign = "right";
+        ctx.font = "20px Century Gothic Regular"
+        ctx.fillStyle = 'white';
+        ctx.fillText(niceMode(), canvas.width - 10, canvas.height-15);
+    }
+
+    function drawLocations(percent) {
+        if (drawLocationsForPhase(curPhase)) {
+            if (isBlank(percent))
+                drawLocationsHere();
+            else
+                drawLocationsBetween(percent);
+        }
+    }
+
+    function drawLocationsBetween(percent) {
+        for (var i=0; i<curLocs.length; i++) {
+            var pname = curLocs[i].name;
+            var px = getBetween(prevLocs[i].x, curLocs[i].x, percent);
+            var py = getBetween(prevLocs[i].y, curLocs[i].y, percent);
+
+            if (pname === myName)
+                drawMeAt(px, py);
+            else
+                drawBuddyAt(px, py);
+        }
+    }
+
+    function drawLocationsHere() {
+        for (var i=0; i<curLocs.length; i++) {
+            var pname = curLocs[i].name;
+            var px = curLocs[i].x;
+            var py = curLocs[i].y
+
+            if (pname === myName) 
+                drawMeAt(px, py);
+            else
+                drawBuddyAt(px, py);
+        }
+    }
+
+    function drawZones(percent) {
+        if (drawZonesForPhase(curPhase)) {
+            if (isBlank(percent))
+                drawZonesHere();
+            else
+                drawZonesBetween(percent);
+        }
+    }
+
+    // draw zone between the previous and current locations
+    function drawZonesBetween(percent) {
+        // BLUE ZONE
+        if (curBlue && prevBlue) {
+            // we are animating between zones
+            var blue = JSON.parse(curBlue);
+            var pblue = JSON.parse(prevBlue);
+            drawMapCircleOutside(
+                getBetween(pblue.x, blue.x, percent),
+                getBetween(pblue.y, blue.y, percent),
+                getBetween(pblue.radius, blue.radius, percent),
+                blueZoneColor
+            );
+        }
+
+        // WHITE ZONE
+        if (curWhite && prevWhite) {
+            // we are animating between zones
+            var white = JSON.parse(curWhite);
+            var pwhite = JSON.parse(prevWhite);
+            drawMapCircleOutline(
+                getBetween(pwhite.x, white.x, percent),
+                getBetween(pwhite.y, white.y, percent),
+                getBetween(pwhite.radius, white.radius, percent),
+                '#FFF'
+            );
+        }
+
+        // RED ZONE (don't animate)
+        if (curRed) {
+            var red = JSON.parse(curRed);
+            drawMapCircleInside(red.x, red.y, red.radius, redZoneColor);
+        }
+    }
+
+    // draw zones
+    function drawZonesHere() {
+        if (notBlank(curBlue)) {
+            var blue = JSON.parse(curBlue);
+            drawMapCircleOutside(blue.x, blue.y, blue.radius, blueZoneColor);
+        }
+        if (notBlank(curWhite)) {
+            var white = JSON.parse(curWhite);
+            drawMapCircleOutline(white.x, white.y, white.radius, '#FFF');
+        }
+        if (notBlank(curRed)) {
+            var red = JSON.parse(curRed);
+            drawMapCircleInside(red.x, red.y, red.radius, redZoneColor);
+        }
+    }
+
+
+    // decide whether we should just draw the current information, or if we should animate
+    // between the old and the new information
+    function shouldAnimate() {
+        
+        // animate if the zones have moved
+        if (notBlank(curWhite) && notBlank(prevWhite) && prevWhite!==curWhite) return true;
+        if (notBlank(curBlue)  && notBlank(prevBlue)  && prevBlue !==curBlue)  return true;
+
+        // animate if flight paths should animate
+        if (animateFlightPath) return true;
+
+        // get the maximum change in in-game measurements
+        var maxChg = 0;
+        function compare(a, b) {
+            var diff = Math.abs(a-b);
+            if (diff > maxChg)
+                maxChg = diff;
+        }
+        for (var i=0; i<prevLocs.length && i<curLocs.length; i++) {
+            compare(prevLocs[i].x, curLocs[i].x);
+            compare(prevLocs[i].y, curLocs[i].y);
+        }
+
+        // get that measurement in on-screen distance (pixels)
+        var [_, _, z] = orientForCamera(0, 0);
+        var maxChgPx = z*maxChg;
+        return (maxChgPx > minPixelsToAnimate);
+    }
+
+
+    function drawMapCircleOutline(x, y, r, color) {
+        var [newX, newY, z] = orientForCamera(x, y);
+        drawCircleOutline(newX, newY, r*z, color);
+    }
+
+    function drawMapCircleOutside(x, y, r, color) {
+        var [newX, newY, z] = orientForCamera(x, y);
+        drawCircleOutside(newX, newY, r*z, color);
+    }
+
+    function drawMapCircleInside(x, y, r, color) {
+        var [newX, newY, z] = orientForCamera(x, y);
+        drawCircleInside(newX, newY, r*z, color);
+    }
+
+    function flightPathBetween(fpA, fpB, percent) {
+        return {
+            start: {
+                x: getBetween(fpA.start.x, fpB.start.x, percent),
+                y: getBetween(fpA.start.y, fpB.start.y, percent)
+            },
+            end: {
+                x: getBetween(fpA.end.x, fpB.end.x, percent),
+                y: getBetween(fpA.end.y, fpB.end.y, percent)
+            }
+        };
+    }
+
+    function drawFlightPaths(percent) {
+        var animating = animateFlightPath && notBlank(percent);
+        if (calcFlightPath && drawFlightPathForPhase(curPhase)) {
+            if (animating) drawSolidLine(flightPathBetween(prevCalcFlightPath, calcFlightPath, percent));
+            else drawSolidLine(calcFlightPath);
+        }
+        if (calcLandingLines && drawLandingLinesForPhase(curPhase)) {
+            for (var i=0; i<calcLandingLines.length; i++) {
+                if (animating) drawDashedLine(flightPathBetween(prevCalcLandingLines[i], calcLandingLines[i], percent));
+                else drawDashedLine(calcLandingLines[i]);
+            }
+        }
+    }
+
+    function drawMapLoading() {
+        ctx.fillStyle = "#FFF";
+        ctx.fillRect(0, 0, canvas.scrollWidth, canvas.scrollHeight);
+
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle"; 
+        ctx.font = "" + Math.round(canvas.scrollWidth/30) + "px Century Gothic Regular"
+        ctx.fillStyle = "#000";
+        ctx.fillText("Loading map of "+curMap+"...", canvas.scrollWidth/2, canvas.scrollHeight/2);
+    }
+
+    function drawNoInfo() {
+        var noInfoText1="No player info found.";
+        var noInfoText2="Once you are in the aircraft, this area will update.";
+
+        ctx.fillStyle = "#FFF";
+        ctx.fillRect(0, 0, canvas.scrollWidth, canvas.scrollHeight);
+
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle"; 
+        ctx.font = "" + Math.round(canvas.scrollWidth/40) + "px Century Gothic Regular"
+        ctx.fillStyle = "#000";
+        ctx.fillText(noInfoText1, canvas.scrollWidth/2, canvas.scrollHeight/2-15);
+        ctx.fillText(noInfoText2, canvas.scrollWidth/2, canvas.scrollHeight/2+15);
+    }
+
+    function drawMeAt(x, y) {
+        [newX, newY, z] = orientForCamera(x, y);
+        // x = map_to_canvas(x);
+        // y = map_to_canvas(y);
+        drawCircle(newX, newY, 'yellow');
+    }
+
+    function drawBuddyAt(x, y) {
+        [newX, newY, z] = orientForCamera(x, y);
+        // x = map_to_canvas(x);
+        // y = map_to_canvas(y);
+        drawCircle(newX, newY, 'orange');
+    }
+
+
+    function drawCircle(x, y, color) {
+        var centerX = x;
+        var centerY = y;
+        var radius = 5;
+
+        ctx.beginPath();
+        ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
+        ctx.fillStyle = color;
+        ctx.strokeStyle = '#000';
+        ctx.fill();
+        ctx.stroke();
+        ctx.closePath();
+    }
+
+    function drawCircleOutline(x, y, rad, color) {
+        ctx.beginPath();
+        ctx.arc(x, y, rad, 0, 2 * Math.PI);
+        ctx.strokeStyle = color;
+        ctx.stroke();
+        ctx.closePath();
+    }
+
+    function drawCircleInside(x, y, rad, color) {
+        ctx.beginPath();
+        ctx.arc(x, y, rad, 0, 2 * Math.PI);
+        ctx.fillStyle = color;
+        ctx.fill();
+        ctx.closePath();
+    }
+
+    function drawCircleOutside(x, y, rad, color) {
+        ctx.beginPath();
+        ctx.rect(0, 0, canvas.scrollWidth, canvas.scrollHeight);
+        ctx.arc(x, y, rad, 0, 2 * Math.PI, true);
+        ctx.fillStyle = color;
+        ctx.fill("evenodd");
+        ctx.closePath();
+    }
+
+    function drawSolidLine(path) {
+        var [startx, starty, _] = orientForCamera(path.start.x, path.start.y);
+        var [endx,   endy,   _] = orientForCamera(path.end.x,   path.end.y);
+        ctx.beginPath();
+        ctx.setLineDash([]);
+            ctx.moveTo(
+                startx,
+                starty
+            );
+            ctx.lineTo(
+                endx,
+                endy
+            );
+        ctx.strokeStyle = "#FFF";
+        ctx.stroke();
+        ctx.closePath();
+    }
+
+    function drawDashedLine(path) {
+        var [startx, starty, _] = orientForCamera(path.start.x, path.start.y);
+        var [endx,   endy,   _] = orientForCamera(path.end.x,   path.end.y);
+        ctx.beginPath();
+        ctx.setLineDash([5,5]);
+            ctx.moveTo(
+                startx,
+                starty
+            );
+            ctx.lineTo(
+                endx,
+                endy
+            );
+        ctx.strokeStyle = "#FFF";
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.closePath();
+    }
+
+
+
+
+
+/*
+      ######   #######  ##     ##    ###    ########   ######
+     ##    ## ##     ## ##     ##   ## ##   ##     ## ##    ##
+     ##       ##     ## ##     ##  ##   ##  ##     ## ##
+      ######  ##     ## ##     ## ##     ## ##     ##  ######
+           ## ##  ## ## ##     ## ######### ##     ##       ##
+     ##    ## ##    ##  ##     ## ##     ## ##     ## ##    ##
+      ######   ##### ##  #######  ##     ## ########   ######
+*/
+
+    function updateSquad(squad) {
+        prevSquad = curSquad;
+        curSquad = squad;
+        curSquadInfo = [];
+        emptySquadmateDisplay();
+        for (var i=0; i<squad.length; i++) {
+            buildSquadmateDisplay(squad[i]);
+        }
+    }
+
+    function updateSquadInfo(squadinfo) {
+        for (var i=0; i<squadinfo.length; i++) {
+            teammate = squadinfo[i];
+            name = teammate.teammate;
+            
+            // make sure there's an entry for this teammate
+            if (!(curSquadInfo[name]))
+                curSquadInfo[name] = {};
+
+            // update each of their stats
+            if (teammate.kills !== curSquadInfo[name].kills) {
+                curSquadInfo[name].kills = teammate.kills;
+                $("#stats_"+name).find("#kills").text(teammate.kills);
+            }
+            if (teammate.headshots !== curSquadInfo[name].headshots) {
+                curSquadInfo[name].headshots = teammate.headshots;
+                $("#stats_"+name).find("#headshots").text(teammate.headshots);
+            }
+            if (teammate.maxkilldist !== curSquadInfo[name].maxkilldist) {
+                curSquadInfo[name].maxkilldist = teammate.maxkilldist;
+                $("#stats_"+name).find("#maxkilldist").text(Math.round(teammate.maxkilldist)/100);
+            }
+            if (teammate.damagedealt !== curSquadInfo[name].damagedealt) {
+                curSquadInfo[name].damagedealt = teammate.damagedealt;
+                $("#stats_"+name).find("#damagedealt").text(Math.round(teammate.damagedealt));
+            }
+            if (teammate.inv !== curSquadInfo[name].inv) {
+                curSquadInfo[name].inv = teammate.inv;
+                updateTeammateInventory(name, teammate.inv);
+            }
+        }
+    }
+
+    function emptySquadmateDisplay() {
+        $("#mystats").nextAll().remove();
+    }
+
+    function buildSquadmateDisplay(name) {
+        cont = $("#col_livestats");
+        var statsHTML = '<div class="squadstatswrapper" id="stats_'+name+'">'
+        + '    <span class="statsname">'+name+'</span>'
+        + '    <div id="killsandhs">'
+        + '        <div>Kills: <span id="kills">?</span></div>'
+        + '        <div>Headshots: <span id="headshots">?</span></div>'
+        + '    </div>'
+        + '    <div>Total damage dealt: <span id="damagedealt">?</span></div>'
+        + '    <div>Max kill distance: <span id="maxkilldist">?</span>m</div>'
+        + '    <div id="gear">'
+        + '        <img class="gearimg" id="img_helmet"/>'
+        + '        <img class="gearimg" id="img_vest"/>'
+        + '        <img class="gearimg" id="img_bag"/>'
+        + '        <img class="gearimg" id="img_ghillie"/>'
+        + '    </div>'
+        + '    <div id="weapons">'
+        + '        <div id="wpnA"><img class="wpnimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="/></div>'
+        + '        <div id="wpnB"><img class="wpnimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="/></div>'
+        + '    </div>'
+        + '    <div id="inventory"></div>'
+        + '</div>'
+        cont.append(statsHTML);
+    }
+
+    function diffSquad(squadA, squadB) {
+        if (squadA.length !== squadB.length) return true;
+        for (var i=0; i<squadA.length; i++)
+            if (squadA[i] !== squadB[i])
+                return true;
+        return false;
+    }
+
+
+/*
+    ########  ##     ##    ###     ######  ########
+    ##     ## ##     ##   ## ##   ##    ## ##
+    ##     ## ##     ##  ##   ##  ##       ##
+    ########  ######### ##     ##  ######  ######
+    ##        ##     ## #########       ## ##
+    ##        ##     ## ##     ## ##    ## ##
+    ##        ##     ## ##     ##  ######  ########
+*/
+    
+    var rosterInterval = undefined;
+    var rosterWait = 5000;
+    function updatePhase(phase) {
+        if (isBlank(phase)) return;
+        console.log("Changing phase to " + phase);
+        curPhase = phase;
+        if (curPhase === "lobby") {
+            // empty the roster
+            onLobby();
+        }
+        if (curPhase === "airfield") {
+            // poll for the roster every 5 seconds during pregame
+            clearInterval(rosterInterval);
+            rosterInterval = setInterval(getRoster, 5000);
+            getRoster();
+        }
+        if (!rosterEverGot && (curPhase === "aircraft" || curPhase === "freefly" || curPhase === "landed")) {
+            // get the roster for the first time, if player already in a game
+            getRoster();
+        }
+        if (curPhase === "aircraft") {
+            // one more time in 5 seconds, just in case there were last second additions
+            setTimeout(getRoster, 5000);
+            // don't keep polling for the roster
+            clearInterval(rosterInterval);
+        }
+    }
+
+    function onLobby() {
+        $("#roster").empty();
+        defaultViewBox();
+    }
+
+    // whether to draw various things in various phases
+    function drawLocationsForPhase(phase) {
+        if (curPhase === "lobby") return false;
+        if (curPhase === "loading_screen") return false;
+        if (curPhase === "airfield") return false;
+        return true;
+    }
+
+    function drawFlightPathForPhase(phase) {
+        if (phase === "landed") return true;
+        if (phase === "aircraft") return true;
+        if (phase === "freefly") return true;
+        return false;
+    }
+
+    function drawLandingLinesForPhase(phase) {
+        if (phase === "aircraft") return true;
+        if (phase === "freefly")  return true;
+        return false;
+    }
+
+    function drawModeForPhase(phase) {
+        if (phase === "aircraft") return true;
+        if (phase === "freefly")  return true;
+        if (phase === "landed")   return true;
+        return false;
+    }
+
+    function drawZonesForPhase(phase) {
+        if (phase === "aircraft") return true;
+        if (phase === "freefly")  return true;
+        if (phase === "landed")   return true;
+        return false;
+    }
+
+    // turn a phase into something presentable
+    function nicePhase() {
+        if (curPhase === "lobby") return "Lobby";
+        if (curPhase === "loading_screen") return "Loading Screen";
+        if (curPhase === "airfield") return "Pre-game";
+        if (curPhase === "aircraft") return "Aircraft";
+        if (curPhase === "freefly") return "Freefly";
+        if (curPhase === "landed") return "Surviving";
+        return curPhase;
+    }
+
+
+    // MODE
+    function updateMode(mode) {
+        if (isBlank(mode)) return;
+        curMode = mode;
+    }
+
+    // turn a mode into something presentable
+    function niceMode() {
+        if (curMode === "solo")  return "Solos";
+        if (curMode === "duo")   return "Duos";
+        if (curMode === "squad") return "Squads";
+        return "Unknown";
+    }
+
+
+/*
+    ##     ##    ###    ########
+    ###   ###   ## ##   ##     ##
+    #### ####  ##   ##  ##     ##
+    ## ### ## ##     ## ########
+    ##     ## ######### ##
+    ##     ## ##     ## ##
+    ##     ## ##     ## ##
+*/
+
+    function updateMap(map) {
+        if (isBlank(map)) return;
+        console.log("Changing map to " + map);
+        curMap = map;
+        curMapSize = map_size(curMap);
+        drawMapLoading();
+        img.src = "maps/getmap.php?map="+curMap+"&size="+canvas.scrollWidth;
+    }
+
+    function map_size(mapname) {
+        if (mapname == "sanhok")  return 4000*1.02;
+        if (mapname == "vikendi") return 6000*1.02;
+        else return 8000*1.02;
+    }
+
+    // function map_to_canvas(x, y) {
+    //     return (ord * canvas.scrollWidth)/curMapSize;
+    // }
+
+    // function canvas_to_map(ord) {
+    //     return (ord * curMapSize)/canvas.scrollWidth;
+    // }
+
+
+/*
+    ##        #######   ######     ###    ######## ####  #######  ##    ##  ######
+    ##       ##     ## ##    ##   ## ##      ##     ##  ##     ## ###   ## ##    ##
+    ##       ##     ## ##        ##   ##     ##     ##  ##     ## ####  ## ##
+    ##       ##     ## ##       ##     ##    ##     ##  ##     ## ## ## ##  ######
+    ##       ##     ## ##       #########    ##     ##  ##     ## ##  ####       ##
+    ##       ##     ## ##    ## ##     ##    ##     ##  ##     ## ##   ### ##    ##
+    ########  #######   ######  ##     ##    ##    ####  #######  ##    ##  ######
+*/
+
+    function updateLocations(locs) {
+        prevLocs = curLocs;
+        curLocs = locs;
+
+        if (prevLocs.length == 0)
+            prevLocs = curLocs;
+    }
+
+/*
+     ######  ########    ###    ########  ######
+    ##    ##    ##      ## ##      ##    ##    ##
+    ##          ##     ##   ##     ##    ##
+     ######     ##    ##     ##    ##     ######
+          ##    ##    #########    ##          ##
+    ##    ##    ##    ##     ##    ##    ##    ##
+     ######     ##    ##     ##    ##     ######
+*/
+
+    function updateKills(kills) {
+        if (isBlank(kills)) return;
+        curKills = kills;
+        $("#kills").text(curKills);
+    }
+
+    function updateHeadshots(headshots) {
+        if (isBlank(headshots)) return;
+        curHeadshots = headshots;
+        $("#headshots").text(curHeadshots);
+    }
+
+    function updateDamageDealt(damagedealt) {
+        if (isBlank(damagedealt)) return;
+        curDamageDealt = Math.round(damagedealt);
+        $("#damagedealt").text(curDamageDealt);
+    }
+
+    function updateMaxKillDist(maxkilldist) {
+        if (isBlank(maxkilldist)) return;
+        curMaxKillDist = Math.round(maxkilldist)/100;
+        $("#maxkilldist").text(curMaxKillDist);
+    }
+
+
+
+
+/*
+    ######## ##       ####  ######   ##     ## ######## ########     ###    ######## ##     ##
+    ##       ##        ##  ##    ##  ##     ##    ##    ##     ##   ## ##      ##    ##     ##
+    ##       ##        ##  ##        ##     ##    ##    ##     ##  ##   ##     ##    ##     ##
+    ######   ##        ##  ##   #### #########    ##    ########  ##     ##    ##    #########
+    ##       ##        ##  ##    ##  ##     ##    ##    ##        #########    ##    ##     ##
+    ##       ##        ##  ##    ##  ##     ##    ##    ##        ##     ##    ##    ##     ##
+    ##       ######## ####  ######   ##     ##    ##    ##        ##     ##    ##    ##     ##
+*/
+
+    function updateFlightPath(fpath) {
+        if (notBlank(fpath)) {
+            if (isString(fpath.start)) {
+                fpath.start = JSON.parse(fpath.start);
+                fpath.start.x = parseFloat(fpath.start.x);
+                fpath.start.y = parseFloat(fpath.start.y);
+                fpath.end   = JSON.parse(fpath.end);
+                fpath.end.x = parseFloat(fpath.end.x);
+                fpath.end.y = parseFloat(fpath.end.y);
+            }
+            curFlightPath = fpath;
+            recalculateFlightPath(curFlightPath);
+            animateFlightPath = checkForAnimateFlightPath();
+        }
+    }
+
+    function recalculateFlightPath(fp) {
+        // record previous lines
+        prevCalcFlightPath = calcFlightPath;
+        prevCalcLandingLines = calcLandingLines;
+
+        fp.start.x = parseFloat(fp.start.x);
+        fp.start.y = parseFloat(fp.start.y);
+        fp.end.x = parseFloat(fp.end.x);
+        fp.end.y = parseFloat(fp.end.y);
+        calcFlightPath = extendLineToBounds(fp);
+
+        // the angle of the flight path and the angle perpendicular to it
+        var angle = Math.atan2(fp.end.y - fp.start.y, fp.end.x - fp.start.x);
+        var perpAngle = angle + (Math.PI / 2);
+
+        var close1 = offsetLine(fp.start, fp.end,  1400, perpAngle);
+        var close2 = offsetLine(fp.start, fp.end, -1400, perpAngle);
+        var far1   = offsetLine(fp.start, fp.end,  2000, perpAngle);
+        var far2   = offsetLine(fp.start, fp.end, -2000, perpAngle);
+
+        close1 = extendLineToBounds(close1);
+        close2 = extendLineToBounds(close2);
+        far1   = extendLineToBounds(far1);
+        far2   = extendLineToBounds(far2);
+        
+        calcLandingLines = [close1, close2, far1, far2];
+        if (prevCalcLandingLines===undefined) prevCalcLandingLines = calcLandingLines;
+    }
+
+    function offsetLine(start, end, dist, angle) {
+        return ({
+            start: {
+                x: start.x + dist*Math.cos(angle),
+                y: start.y + dist*Math.sin(angle)
+            },
+            end: {
+                x: end.x + dist*Math.cos(angle),
+                y: end.y + dist*Math.sin(angle)
+            }
+        });
+    }
+
+    function differentFP(a, b) {
+        if (a && b && a.start && a.end && b.start && b.end) {
+            if (a.start.x !== b.start.x) return true;
+            if (a.start.y !== b.start.y) return true;
+            if (a.end.x !== a.end.y) return true;
+            if (a.end.y !== b.end.y) return true;
+            return false;
+        }
+        return true;
+    }
+
+    function extendLineToBounds(path) {
+        var startX = path.start.x;
+        var startY = path.start.y;
+        var endX = path.end.x;
+        var endY = path.end.y;
+
+        var mSize = curMapSize;
+
+        var offX = endX - startX;
+        var offY = endY - startY;
+
+        var dx = offX < 0 ? 0 : mSize;
+        var dy = offY < 0 ? 0 : mSize;
+        var py = dy;
+
+        var sx = offX > 0 ? 0 : mSize;
+        var sy = offY > 0 ? 0 : mSize;
+        var ty = sy;
+
+        if (offX === 0) {
+            return {
+            start: { x:startX, y:endY>startY ? 0 : mSize },
+            end:   { x:startX, y:endY>startY ? mSize : 0 }
+            }
+        } else if (offY === 0) {
+            return {
+            start: { x:endX>startX ? 0 : mSize, y:startY },
+            end:   { x:endX>startX ? mSize : 0, y:startY }
+            }
+        } else {
+            dy = startY + (offY / offX) * (dx - startX);
+            if (dy < 0 || dy > mSize) {
+            dx = startX + (offX / offY) * (py - startY);
+            dy = py;
+            }
+
+            sy = endY + (offY / offX) * (sx - endX);
+            if (sy < 0 || sy > mSize) {
+            sx = startX + (offX / offY) * (ty - startY);
+            sy = ty;
+            }
+        }
+        return {start: {x:sx, y:sy}, end: {x:dx, y:dy}}
+    }
+
+    function checkForAnimateFlightPath() {
+        // console.log("checking");
+        // console.log(isBlank(calcFlightPath));
+        // console.log(isBlank(prevCalcFlightPath));
+        if (isBlank(calcFlightPath) || isBlank(prevCalcFlightPath)) return false;
+        if (curPhase=="aircraft") return true;
+        return false;
+    }
+
+
+/*
+    #### ##    ## ##     ## ######## ##    ## ########  #######  ########  ##    ##
+     ##  ###   ## ##     ## ##       ###   ##    ##    ##     ## ##     ##  ##  ##
+     ##  ####  ## ##     ## ##       ####  ##    ##    ##     ## ##     ##   ####
+     ##  ## ## ## ##     ## ######   ## ## ##    ##    ##     ## ########     ##
+     ##  ##  ####  ##   ##  ##       ##  ####    ##    ##     ## ##   ##      ##
+     ##  ##   ###   ## ##   ##       ##   ###    ##    ##     ## ##    ##     ##
+    #### ##    ##    ###    ######## ##    ##    ##     #######  ##     ##    ##
+*/
+
+    var mainWepList = [
+        "Item_Weapon_Berreta686_C",   // 1
+        "Item_Weapon_Winchester_C",   // 2
+        "Item_Weapon_Saiga12_C",      // 3
+        "Item_Weapon_UZI_C",          // 4
+        "Item_Weapon_Thompson_C",     // 5
+        "Item_Weapon_Vector_C",       // 6
+        "Item_Weapon_BizonPP19_C",    // 7
+        "Item_Weapon_UMP_C",          // 8
+        "Item_Weapon_Groza_C",        // 9
+        "Item_Weapon_M249_C",         // 10
+        "Item_Weapon_AK47_C",         // 11
+        "Item_Weapon_BerylM762_C",    // 12
+        "Item_Weapon_DP28_C",         // 13
+        "Item_Weapon_AUG_C",          // 14
+        "Item_Weapon_MP5K_C",         // 15
+        "Item_Weapon_SCAR-L_C",       // 16
+        "Item_Weapon_QBZ95_C",        // 17
+        "Item_Weapon_HK416_C",        // 18
+        "Item_Weapon_G36C_C",         // 19
+        "Item_Weapon_Mk47Mutant_C",   // 20
+        "Item_Weapon_M16A4_C",        // 21
+        "Item_Weapon_Win1894_C",      // 22
+        "Item_Weapon_Mk14_C",         // 23
+        "Item_Weapon_QBU88_C",        // 24
+        "Item_Weapon_Mini14_C",       // 25
+        "Item_Weapon_VSS_C",          // 26
+        "Item_Weapon_SKS_C",          // 27
+        "Item_Weapon_FNFal_C",        // 28
+        "Item_Weapon_Crossbow_C",     // 29
+        "Item_Weapon_Kar98k_C",       // 30
+        "Item_Weapon_M24_C",          // 31
+        "Item_Weapon_AWM_C"           // 32
+    ];
+
+    function weaponNameFromNumber(ind) {
+        if (ind <= mainWepList.length && ind > 0)
+            return mainWepList[ind-1];
+        return "none";
+    }
+
+    var blank_image_base64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
+
+    function setHelmet(id) {
+        curInv.helmet = id;
+        $("#img_helmet_me").attr("src", "img/inv/helmet_"+id+".png");
+    }
+    
+    function setVest(id) {
+        curInv.vest = id;
+        $("#img_vest_me").attr("src", "img/inv/vest_"+id+".png");
+    }
+
+    function setBag(id) {
+        curInv.bag = id;
+        $("#img_bag_me").attr("src", "img/inv/bag_"+id+".png");
+    }
+
+    function setGhillie(id) {
+        curInv.ghillie = id;
+        if (id>0)
+            $("#img_ghillie_me").attr("src", "img/inv/ghillie_"+id+".png");
+        else
+            $("#img_ghillie_me").attr("src", blank_image_base64);
+    }
+
+    function setWeapons(id1, id2, contID = "#mystats") {
+        curInv.wepClose = id1;
+        curInv.wepRange = id2;
+
+        var wpndiv = $(contID).find("#weapons");
+        var wpnA = weaponNameFromNumber(id1);
+        var wpnB = weaponNameFromNumber(id2);
+
+        // set the appropriate images
+        if (wpnA!=="none")
+            wpndiv.find("#wpnA").find("img.wpnimg").attr("src", "img/wpn/"+wpnA+".png");
+        else
+            wpndiv.find("#wpnA").find("img.wpnimg").attr("src", blank_image_base64);
+
+        if (wpnB!=="none")
+            wpndiv.find("#wpnB").find("img.wpnimg").attr("src", "img/wpn/"+wpnB+".png");
+        else
+            wpndiv.find("#wpnB").find("img.wpnimg").attr("src", blank_image_base64);
+    }
+
+    function updateTeammateInventory(name, inv) {
+        var contID = "#stats_"+name;
+        var [helmet, vest, bag, ghillie, // gear
+                wepClose, wepRange,         // weapons
+                medKits, firstAids, bandages, adrenalines, painKillers, energies // meds
+                ] = inv.split(",");
+        $("#stats_"+name).find("#img_helmet").attr("src", "img/inv/helmet_"+helmet+".png");
+        $("#stats_"+name).find("#img_vest").attr("src", "img/inv/vest_"+vest+".png");
+        $("#stats_"+name).find("#img_bag").attr("src", "img/inv/bag_"+bag+".png");
+        setWeapons(wepClose, wepRange, contID);
+        setMeds(medKits, firstAids, bandages, adrenalines, painKillers, energies, contID);
+    }
+
+    function updateInv(inv) {
+        curInvRaw = inv;
+        // get data
+        if (isBlank(inv)) return false;
+        var [helmet, vest, bag, ghillie, // gear
+                wepClose, wepRange,         // weapons
+                medKits, firstAids, bandages, adrenalines, painKillers, energies // meds
+                ] = inv.split(",");
+
+        // check for changes
+        if (helmet!==curInv.helmet)   setHelmet(helmet);
+        if (vest!==curInv.vest)       setVest(vest);
+        if (bag!==curInv.bag)         setBag(bag);
+        if (ghillie!==curInv.ghillie) setGhillie(ghillie);
+        if (wepClose!==curInv.wepClose || wepRange!==curInv.wepRange)
+            setWeapons(wepClose, wepRange);
+        
+        // meds
+        setMeds(medKits, firstAids, bandages, adrenalines, painKillers, energies);
+    }
+
+    jQuery.fn.isEmpty  = function(){ return !this.length  };
+    jQuery.fn.notEmpty = function(){ return !!this.length };
+
+    function invShowHide(show, name, src, cont) {
+        if (show && cont.find("#"+name).isEmpty()) {
+            cont.append($("<img>").attr("id", name).attr("src", src));
+        } else if (!show) {
+            cont.find("#"+name).remove();
+        }
+    }
+
+    function setMeds(medKits, firstAids, bandages, adrenalines, painKillers, energies, contID = "#mystats") {
+        // parse inputs
+        [medKits, firstAids, bandages, adrenalines, painKillers, energies]
+        = [medKits, firstAids, bandages, adrenalines, painKillers, energies]
+        .map((s) => (parseInt(s)>0));
+
+        var cont = $(contID).find("#inventory");
+        invShowHide(medKits,     "medkit",     "img/med/medkit.png",     cont);
+        invShowHide(firstAids,   "firstaid",   "img/med/firstaid.png",   cont);
+        invShowHide(bandages,    "bandage",    "img/med/bandage.png",    cont);
+        invShowHide(adrenalines, "adrenaline", "img/med/adrenaline.png", cont);
+        invShowHide(painKillers, "painkiller", "img/med/painkiller.png", cont);
+        invShowHide(energies,    "energy",     "img/med/energy.png",     cont);            
+    }
+
+    function buildEmptyInventory() {
+        inv = {};
+        inv.helmet = inv.bag = inv.vest = 0;
+        inv.wepClose = inv.wepRange = 0;
+        return inv;
+    }
+
+
+/*
+    ########  #######  ##    ## ########  ######
+         ##  ##     ## ###   ## ##       ##    ##
+        ##   ##     ## ####  ## ##       ##
+       ##    ##     ## ## ## ## ######    ######
+      ##     ##     ## ##  #### ##             ##
+     ##      ##     ## ##   ### ##       ##    ##
+    ########  #######  ##    ## ########  ######
+*/
+    function updateWhiteZone(zone) {
+        prevWhite = curWhite;
+        curWhite = zone;
+        if (isBlank(prevWhite))
+            prevWhite = getOuterZone();
+    }
+    function updateBlueZone(zone) {
+        prevBlue = curBlue;
+        curBlue = zone;
+        if (isBlank(prevBlue))
+            prevBlue = getOuterZone();
+    }
+    function updateRedZone(zone) {
+        prevRed = curRed;
+        curRed = zone;
+    }
+    function getOuterZone() {
+        var mapsz = curMapSize;
+        var mid = mapsz/2;
+        var rad = mapsz*0.75;
+        return '{"x":'+mid+', "y":'+mid+', "radius":'+rad+'}';
+    }
+
+
+
+/*
+        ########   #######   ######  ######## ######## ########
+        ##     ## ##     ## ##    ##    ##    ##       ##     ##
+        ##     ## ##     ## ##          ##    ##       ##     ##
+        ########  ##     ##  ######     ##    ######   ########
+        ##   ##   ##     ##       ##    ##    ##       ##   ##
+        ##    ##  ##     ## ##    ##    ##    ##       ##    ##
+        ##     ##  #######   ######     ##    ######## ##     ##
+*/
+
+    // get the roster from the server
+    function getRoster() {
+        rosterEverGot = true;
+        jQuery.getJSON("api/getroster.php?name="+myName)
+        .done(function(data) {
+            if (data.roster) processRoster(data.roster);
+        });
+    }
+
+    // process roster info
+    function processRoster(roster) {
+        if (typeof roster === "string" && roster.length > 10) {
+            curRoster = [];
+            for (var i=0; i<99; i++) {
+                curRoster[i] = undefined;
+            }
+            var list = roster.split(',');
+            for (var i=0; i<list.length; i++) {
+                curRoster[i] = list[i];
+            }
+        }
+        showRoster();
+    }
+
+    // update who is alive on the roster list on the page
+    function updateAlives(alives) {
+        curAlives = alives;
+        var enemyCount = 0;
+        for (var i=0; i<alives.length; i++) {
+            if (curRoster[i] && curRoster[i].length > 0) {
+                if (alives.charAt(i) === "1") {
+                    enemyCount++;
+                } else {
+                    curRoster[i] = undefined;
+                    $("#roster_"+i).slideUp();
+                }
+            }
+        }
+        if (enemyCount > 1) {
+            $("#roster_header").text(enemyCount + " enemies:");
+        } else if (enemyCount === 1) {
+            $("#roster_header").text("1 enemy:");
+        }
+    }
+
+    // show the roster on the page
+    function showRoster() {
+        if (isBlank(curRoster)) return;
+
+        // get a list of indexes of a sorted curRoster. (argsort).
+        // items will display in alphabetical order, but their indexes won't change.
+        var indexes = [];
+        for (var i=0; i<curRoster.length; i++)
+            indexes[i] = i;
+        indexes.sort(function(a, b) {
+            if (curRoster[a] && curRoster[b])
+                return (curRoster[a].localeCompare(curRoster[b]));
+            else return 0;
+        });
+
+        // empty the roster
+        var col = $("#roster");
+        col.empty();
+
+        var enemyCount = 0;
+
+        // add all names in divs to the roster div
+        for (var i=0; i<curRoster.length; i++) {
+            var ind = indexes[i];
+            var name = curRoster[ind];
+            var isEnemy = true;
+            if (name === myName) isEnemy = false;
+            for (var t=0; t<curSquad.length; t++) {
+                if (name === curSquad[t])
+                    isEnemy = false;
+            }
+            if (isEnemy && name && name.length > 0) {
+                $('<div>', {id: "roster_"+ind}).text(name).appendTo(col);
+                enemyCount++;
+            } else {
+                $('<div>', {id: "roster_"+ind, class:"rosterblank"}).appendTo(col);
+            }
+        }
+
+        if (enemyCount>1) {
+            $('<div>', {id:"roster_header"}).text(enemyCount + " enemies:").prependTo(col);
+        } else if (enemyCount===1) {
+            $('<div>', {id:"roster_header"}).text("1 enemy:").prependTo(col);
+        }
+    }
+
+
+
+/*
+    ########   #######  ##       ##       #### ##    ##  ######
+    ##     ## ##     ## ##       ##        ##  ###   ## ##    ##
+    ##     ## ##     ## ##       ##        ##  ####  ## ##
+    ########  ##     ## ##       ##        ##  ## ## ## ##   ####
+    ##        ##     ## ##       ##        ##  ##  #### ##    ##
+    ##        ##     ## ##       ##        ##  ##   ### ##    ##
+    ##         #######  ######## ######## #### ##    ##  ######
+*/
+
+    function poll(pollingCallback) {
+        jQuery.getJSON("api/poll.php?name="+myName)
+        .done(function(data) {
+            if (isBlank(data.me.x) || isBlank(data.me.map) || data.me.map==="unknown") {
+                // we aren't getting location info on the poll response, so the player
+                // must not exist in the tables. This means their app has never run or seen
+                // their name yet (aircraft on first game). display a message to this effect.
+                drawNoInfo();
+                return;
+            }
+
+            // update zones
+            updateWhiteZone(data.me.white);
+            updateBlueZone(data.me.blue);
+            updateRedZone(data.me.red);
+
+            // update phase/map/mode
+            if (data.me.phase !== curPhase)
+                updatePhase(data.me.phase);
+            if (data.me.map !== curMap)
+                updateMap(data.me.map);
+            if (data.me.mode !== curMode)
+                updateMode(data.me.mode);
+
+            // put all the locations together to print them (will change the way this is done later)
+            var alllocs = [];
+            for (var i=0; i<data.squadinfo.length; i++) {
+                alllocs.push({'name': data.squadinfo[i].name, 'x': data.squadinfo[i].x, 'y': data.squadinfo[i].y});
+            }
+            alllocs.push({'name': myName, 'x': data.me.x, 'y': data.me.y});
+            updateLocations(alllocs);
+
+            // check if the squad has changed
+            if (diffSquad(curSquad, data.squad))
+                updateSquad(data.squad);
+
+            // update the squad info
+            updateSquadInfo(data.squadinfo);
+
+            // we might not recalculate the flight path, so
+            // make sure we don't accidentally animate it
+            animateFlightPath = false;
+
+            // process lots of other info
+            if (data.me.alives !== curAlives)
+                updateAlives(data.me.alives);
+            if (data.me.inv !== curInvRaw)
+                updateInv(data.me.inv);
+            if (differentFP(data.me.flightpath, curFlightPath))
+                updateFlightPath(data.me.flightpath);
+            if (data.me.damagedealt !== curDamageDealt)
+                updateDamageDealt(data.me.damagedealt);
+            if (data.me.kills !== curKills)
+                updateKills(data.me.kills);
+            if (data.me.headshots !== curHeadshots)
+                updateHeadshots(data.me.headshots);
+            if (data.me.maxkilldist !== curMaxKillDist)
+                updateMaxKillDist(data.me.maxkilldist);
+            
+            // recalculate the view box
+            recalculateViewBox();
+
+            // redraw the map
+            initiateRedraw();
+
+            // save some 'prev' things 
+
+        })
+        .always(pollingCallback);
+    }
+
+    // call requestFn (which takes a callback parameter when it's finished asynchronously)
+    // once every second, unless it takes longer than that for it to call its callback.
+    function MaxOncePerSecond(requestFn){
+        var timeoutHandle = 0;
+        var beenOneSecond = false;
+        var gotReturn = false;
+        // do this when requestFn is finished
+        function onReturn() {
+            gotReturn = true;
+            if (beenOneSecond === true) {
+                // we got a return and it's been one second, so run again.
+                schedulerun();
+            }
+        }
+        // do this in one second
+        function onOneSecond() {
+            beenOneSecond = true;
+            if (gotReturn === true) {
+                // it's been one second and we've got a return, so run again.
+                schedulerun();
+            }
+        }
+        // run requestFn and set up for it to finish
+        function schedulerun() {
+            beenOneSecond = false;
+            gotReturn = false;
+            timeoutHandle = setTimeout(onOneSecond, 1000);
+            requestFn(onReturn);
+        }
+        schedulerun(); // start the process
+
+        return timeoutHandle;
+    }
+/*
+    ##     ## ######## ##       ########  ######## ########   ######
+    ##     ## ##       ##       ##     ## ##       ##     ## ##    ##
+    ##     ## ##       ##       ##     ## ##       ##     ## ##
+    ######### ######   ##       ########  ######   ########   ######
+    ##     ## ##       ##       ##        ##       ##   ##         ##
+    ##     ## ##       ##       ##        ##       ##    ##  ##    ##
+    ##     ## ######## ######## ##        ######## ##     ##  ######
+*/
+
+    function getBetween(start, end, percent) {
+        start = parseInt(start);
+        end = parseInt(end);
+        var diff = end - start;
+        var result = start + (percent * diff);
+        return result;
+    }
+
+    function notBlank(a) {
+        if (a===undefined) return false;
+        if (a===null) return false;
+        if (a==="") return false;
+        return true;
+    }
+
+    function isBlank(a) {
+        return !notBlank(a);
+    }
+
+    function isString(v) {
+        return (typeof v === 'string' || v instanceof String);
+    }
+
+/*
+       ###    ##       ####  ######   ##    ## ##     ## ######## ##    ## ########
+      ## ##   ##        ##  ##    ##  ###   ## ###   ### ##       ###   ##    ##
+     ##   ##  ##        ##  ##        ####  ## #### #### ##       ####  ##    ##
+    ##     ## ##        ##  ##   #### ## ## ## ## ### ## ######   ## ## ##    ##
+    ######### ##        ##  ##    ##  ##  #### ##     ## ##       ##  ####    ##
+    ##     ## ##        ##  ##    ##  ##   ### ##     ## ##       ##   ###    ##
+    ##     ## ######## ####  ######   ##    ## ##     ## ######## ##    ##    ##
+*/
+
+    function rightAlign() {
+        // remove the "left" class from the main table
+        $("#maintable").removeClass("left");
+        // toggle behaviour
+        $("#mapcanvas").off('dblclick').on('dblclick', leftAlign);
+        // save the preference
+        localStorage.setItem('screenAlignment', 'right');
+    }
+    function leftAlign() {
+         // add the "left" class to the main table
+        $("#maintable").removeClass("left").addClass("left");
+        // toggle behaviour
+        $("#mapcanvas").off('dblclick').on('dblclick', rightAlign);
+        // save the preference
+        localStorage.setItem('screenAlignment', 'left');
+    }
+
+    function getSavedAlignment() {
+        if (localStorage.getItem('screenAlignment') === 'left') {
+            leftAlign();
+        } else {
+            rightAlign();
+        }
+    }
+
+/*
+    #### ##    ## #### ########
+     ##  ###   ##  ##     ##
+     ##  ####  ##  ##     ##
+     ##  ## ## ##  ##     ##
+     ##  ##  ####  ##     ##
+     ##  ##   ###  ##     ##
+    #### ##    ## ####    ##
+*/
+    function initApp() {
+        recalculateViewBox();
+        MaxOncePerSecond(poll);
+    }
+
+    $(function() {
+        // write the user's name to the name field
+        $("#myName").text(myName);
+
+        // check if the alignment should change on load
+        getSavedAlignment();
+
+        // start polling
+        initApp();
+    });
+
+    // get the player's name from the URL
+    function getUrlPlayerName() {
+        return window.location.search.substring(1);
+    }
+
+    </script>
+  </body>
+</html>

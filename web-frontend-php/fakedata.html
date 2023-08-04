@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="../buckicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<title>FAKE DATA</title>
+		<style>
+			#cnt input {
+				width:300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="cnt">
+			<div><input type="text" id="name" value="MrWraith2"> &lt;- Name</div>
+			<div><input type="text" id="bluezone"  value='{"x":1000, "y":1000, "radius":1000}'><button id="bluebutton">Set Blue Zone</button></div>
+			<div><input type="text" id="whitezone" value='{"x":1000, "y":1000, "radius":1000}'><button id="whitebutton">Set White Zone</button></div>
+			<div><input type="text" id="whitezone2" value='{"x":2000, "y":2000, "radius":400}'><button id="whitebutton2">Set White Zone</button></div>
+			<div><input type="text" id="phase" value='landed'><button id="phase">Set Phase</button></div>
+		</div>
+	</body>
+	<script>
+		function getName() {
+			return $("input#name").first().val();
+		}
+
+		var API_BASE = "api/";
+
+		function singleCall(apiURL, paramName, inputID) {
+			return function() {
+				var data = { name: getName() };
+				data[paramName] = $(inputID).first().val();
+				$.post( API_BASE+apiURL, data );
+			};
+		}
+
+		$(function() {
+			
+			$("#whitebutton").click(singleCall("setwhitezone.php", "white", "#whitezone"));
+			$("#whitebutton2").click(singleCall("setwhitezone.php", "white", "#whitezone2"));
+			$("#bluebutton").click(singleCall("setbluezone.php", "blue", "#bluezone"));
+			$("#phase").click(singleCall("setphase.php", "phase", "#phase"));
+
+
+    });
+	</script>
+</html>

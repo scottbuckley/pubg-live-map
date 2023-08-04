@@ -1,0 +1,509 @@
+[03-Mar-2019 21:10:33 America/Chicago] PHP Warning:  imagecreatefromjpeg(.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[03-Mar-2019 21:10:33 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[03-Mar-2019 21:10:33 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[03-Mar-2019 21:10:33 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[03-Mar-2019 21:10:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[03-Mar-2019 21:11:05 America/Chicago] PHP Warning:  imagecreatefromjpeg(.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[03-Mar-2019 21:11:05 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[03-Mar-2019 21:11:05 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[03-Mar-2019 21:11:05 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[03-Mar-2019 21:11:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[13-Mar-2019 20:07:58 America/Chicago] PHP Warning:  imagecreatefromjpeg(.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[13-Mar-2019 20:07:58 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[13-Mar-2019 20:07:58 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[13-Mar-2019 20:07:58 America/Chicago] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home2/buckly/public_html/pubg/maps/getmap.php on line 20
+[13-Mar-2019 20:07:58 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[13-Mar-2019 20:07:58 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 24
+[13-Mar-2019 20:07:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[13-Mar-2019 20:07:58 America/Chicago] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 28
+[17-Mar-2019 06:47:55 America/Chicago] PHP Warning:  imagecreatefromjpeg(unknown.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[17-Mar-2019 06:47:55 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[17-Mar-2019 06:47:55 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[17-Mar-2019 06:47:55 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[17-Mar-2019 06:47:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[21-Mar-2019 00:45:42 America/Chicago] PHP Warning:  imagecreatefromjpeg(unknown.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[21-Mar-2019 00:45:42 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[21-Mar-2019 00:45:42 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[21-Mar-2019 00:45:42 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[21-Mar-2019 00:45:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[23-Mar-2019 19:51:06 America/Chicago] PHP Warning:  imagecreatefromjpeg(unknown.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[23-Mar-2019 19:51:06 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[23-Mar-2019 19:51:06 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[23-Mar-2019 19:51:06 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[23-Mar-2019 19:51:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[23-Mar-2019 19:51:14 America/Chicago] PHP Warning:  imagecreatefromjpeg(unknown.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[23-Mar-2019 19:51:14 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[23-Mar-2019 19:51:14 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[23-Mar-2019 19:51:14 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[23-Mar-2019 19:51:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[01-Apr-2019 20:02:03 America/Chicago] PHP Warning:  imagecreatefromjpeg(undefined.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 20:02:03 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[01-Apr-2019 20:02:03 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[01-Apr-2019 20:02:04 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[01-Apr-2019 20:02:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[01-Apr-2019 22:17:58 America/Chicago] PHP Warning:  imagecreatefromjpeg(huge/vikendi.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:17:58 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[01-Apr-2019 22:17:58 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[01-Apr-2019 22:17:58 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[01-Apr-2019 22:17:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[01-Apr-2019 22:18:23 America/Chicago] PHP Warning:  imagecreatefromjpeg(huge/vikendi.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:18:23 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[01-Apr-2019 22:18:23 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[01-Apr-2019 22:18:23 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[01-Apr-2019 22:18:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[01-Apr-2019 22:18:42 America/Chicago] PHP Warning:  imagecreatefromjpeg(huge/vikendi.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:18:42 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[01-Apr-2019 22:18:42 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[01-Apr-2019 22:18:42 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[01-Apr-2019 22:18:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[01-Apr-2019 22:22:56 America/Chicago] PHP Warning:  imagecreatefrompng(huge/erangel.png): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:22:56 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[01-Apr-2019 22:22:56 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[01-Apr-2019 22:22:56 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[01-Apr-2019 22:22:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[01-Apr-2019 22:23:11 America/Chicago] PHP Warning:  imagecreatefrompng(huge/erangel.png): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:23:11 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[01-Apr-2019 22:23:11 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[01-Apr-2019 22:23:11 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[01-Apr-2019 22:23:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[01-Apr-2019 22:23:27 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:23:29 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:23:31 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:46:10 America/Chicago] PHP Warning:  imagecreatefromjpeg(medium/undefined.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:46:10 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[01-Apr-2019 22:46:10 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[01-Apr-2019 22:46:10 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[01-Apr-2019 22:46:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[01-Apr-2019 22:46:29 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:46:37 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:46:49 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:46:55 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[01-Apr-2019 22:47:01 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[06-Apr-2019 06:02:47 America/Chicago] PHP Warning:  imagecreatefromjpeg(undefined.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[06-Apr-2019 06:02:47 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[06-Apr-2019 06:02:47 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[06-Apr-2019 06:02:47 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[06-Apr-2019 06:02:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[06-Apr-2019 17:54:06 America/Chicago] PHP Warning:  imagecreatefromjpeg(jackal.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[06-Apr-2019 17:54:06 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[06-Apr-2019 17:54:06 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[06-Apr-2019 17:54:06 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[06-Apr-2019 17:54:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[06-Apr-2019 17:54:07 America/Chicago] PHP Warning:  imagecreatefromjpeg(jackal.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[06-Apr-2019 17:54:07 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[06-Apr-2019 17:54:07 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[06-Apr-2019 17:54:07 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[06-Apr-2019 17:54:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[06-Apr-2019 17:54:29 America/Chicago] PHP Warning:  imagecreatefromjpeg(jackal.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[06-Apr-2019 17:54:29 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[06-Apr-2019 17:54:29 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[06-Apr-2019 17:54:29 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[06-Apr-2019 17:54:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[09-Apr-2019 08:06:01 America/Chicago] PHP Warning:  imagecreatefromjpeg(unknown.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[09-Apr-2019 08:06:01 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[09-Apr-2019 08:06:01 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[09-Apr-2019 08:06:01 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[09-Apr-2019 08:06:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[11-Apr-2019 04:10:46 America/Chicago] PHP Warning:  imagecreatefromjpeg(unknown.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[11-Apr-2019 04:10:46 America/Chicago] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[11-Apr-2019 04:10:46 America/Chicago] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[11-Apr-2019 04:10:46 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[11-Apr-2019 04:10:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/buckly/public_html/pubg/maps/getmap.php:14) in /home2/buckly/public_html/pubg/maps/getmap.php on line 27
+[26-Apr-2019 02:55:09 UTC] PHP Warning:  imagecreatefromjpeg(unknown.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[26-Apr-2019 02:55:09 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[26-Apr-2019 02:55:09 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[26-Apr-2019 02:55:09 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[28-Apr-2019 03:27:19 UTC] PHP Warning:  imagecreatefromjpeg(undefined.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[28-Apr-2019 03:27:20 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[28-Apr-2019 03:27:20 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[28-Apr-2019 03:27:20 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[28-Apr-2019 03:27:32 UTC] PHP Warning:  imagecreatefromjpeg(undefined.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[28-Apr-2019 03:27:32 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[28-Apr-2019 03:27:32 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[28-Apr-2019 03:27:32 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[28-Apr-2019 04:21:22 UTC] PHP Warning:  imagecreatefromjpeg(undefined.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[28-Apr-2019 04:21:22 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[28-Apr-2019 04:21:22 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[28-Apr-2019 04:21:22 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[28-Apr-2019 04:52:30 UTC] PHP Warning:  imagecreatefromjpeg(unknown.jpg): failed to open stream: No such file or directory in /home2/buckly/public_html/pubg/maps/getmap.php on line 14
+[28-Apr-2019 04:52:30 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 15
+[28-Apr-2019 04:52:30 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 16
+[28-Apr-2019 04:52:30 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/buckly/public_html/pubg/maps/getmap.php on line 21
+[01-Jul-2019 05:52:12 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 05:52:12 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 05:52:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 05:52:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:38:07 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 28672 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:48 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:49 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 28672 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:50 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:52 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:52 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:55 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:47:57 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:48:01 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 20
+[01-Jul-2019 06:51:58 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:52:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:52:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:52:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:52:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:52:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:52:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:52:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 28672 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:52:56 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:53:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 28672 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:53:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:53:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:53:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:53:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:53:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:53:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[01-Jul-2019 06:53:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:18:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:18:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:18:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:21:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:21:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:21:21 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:23:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:23:21 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:23:21 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[03-Jul-2019 13:25:21 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[03-Jul-2019 13:28:48 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:28:48 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[03-Jul-2019 13:28:48 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[03-Jul-2019 13:28:49 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:28:49 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[03-Jul-2019 13:28:49 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[03-Jul-2019 13:28:50 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[03-Jul-2019 13:28:50 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[03-Jul-2019 13:28:50 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[03-Jul-2019 13:56:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:11:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:11:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:13:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 86016 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:13:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 86016 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:14:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 172032 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:14:31 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 167936 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:15:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 176128 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:15:22 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 172032 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:36:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:38:38 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 12:40:03 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 13:17:36 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 13:17:37 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 13:19:22 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 77824 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 13:19:22 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 81920 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 13:21:01 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[04-Jul-2019 13:21:58 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:44:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:47:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:47:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 73728 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:49:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:49:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:49:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 86016 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:50:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:50:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 147456 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 02:50:26 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[05-Jul-2019 04:54:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[06-Jul-2019 05:20:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[06-Jul-2019 05:23:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[06-Jul-2019 05:25:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[06-Jul-2019 05:27:06 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[06-Jul-2019 05:27:06 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[06-Jul-2019 05:27:06 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[06-Jul-2019 05:31:35 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[06-Jul-2019 05:31:35 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[06-Jul-2019 05:31:35 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[06-Jul-2019 05:32:53 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[06-Jul-2019 05:32:53 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[06-Jul-2019 05:32:53 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[07-Jul-2019 03:38:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 03:38:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 03:38:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 03:41:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 53248 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 03:41:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 53248 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 03:41:16 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 53248 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 04:09:58 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 04:09:58 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[07-Jul-2019 04:09:58 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[07-Jul-2019 04:36:16 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 04:36:17 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 04:38:38 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 04:38:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 11:33:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 11:33:55 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 11:35:41 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 11:37:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[07-Jul-2019 11:37:43 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[08-Jul-2019 08:09:11 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[08-Jul-2019 08:11:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[08-Jul-2019 08:13:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[08-Jul-2019 08:15:56 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 176128 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[08-Jul-2019 11:31:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[08-Jul-2019 11:34:12 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[08-Jul-2019 11:37:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[12-Jul-2019 14:35:11 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[12-Jul-2019 14:37:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[12-Jul-2019 14:39:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[12-Jul-2019 14:42:15 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[12-Jul-2019 14:42:15 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[12-Jul-2019 14:42:15 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[16-Jul-2019 13:05:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[16-Jul-2019 13:07:19 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 86016 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[16-Jul-2019 13:08:44 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 172032 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[17-Jul-2019 11:20:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 45056 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[17-Jul-2019 11:21:59 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 77824 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[17-Jul-2019 11:22:00 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 86016 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[17-Jul-2019 11:23:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[17-Jul-2019 11:24:28 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 151552 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[18-Jul-2019 09:33:23 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[18-Jul-2019 09:33:23 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[18-Jul-2019 09:33:23 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[18-Jul-2019 09:57:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[18-Jul-2019 09:57:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:03:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:03:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:06:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:06:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:08:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:08:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 131072 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:08:28 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:10:28 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:10:28 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[19-Jul-2019 13:10:28 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[19-Jul-2019 13:47:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:47:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:50:16 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:50:16 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:50:18 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[19-Jul-2019 13:50:18 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[19-Jul-2019 13:50:18 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[19-Jul-2019 13:50:39 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:19 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:19 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:19 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:20 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:20 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:20 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:21 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:21 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:21 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:22 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:22 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:22 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:24 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:24 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:24 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:25 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:25 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:25 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:26 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:26 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:26 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:27 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:27 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:28 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:28 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:28 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:29 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:29 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:29 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:30 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:30 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:30 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:31 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:31 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:31 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:32 UTC] PHP Warning:  imagecreatetruecolor(): gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:32 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 22
+[20-Jul-2019 13:01:32 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 25
+[20-Jul-2019 13:01:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 176128 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:37 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 126976 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:38 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 106496 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:41 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 94208 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:42 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:44 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:46 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:49 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:50 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 94208 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:52 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 94208 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:55 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:56 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 94208 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:57 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:58 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:01:59 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:01 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 94208 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:02 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 90112 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:03 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 86016 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 81920 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 77824 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 73728 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 73728 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:10 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 65536 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:10 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 65536 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:12 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 61440 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:12 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 61440 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:13 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 57344 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:16 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 61440 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 61440 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 65536 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:26 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 65536 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:28 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 65536 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:36 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 73728 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:38 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 77824 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:39 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 81920 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 86016 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:41 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:42 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 94208 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:42 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:44 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 110592 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:44 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 118784 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:45 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 126976 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:46 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:47 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:49 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:50 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:52 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 126976 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 118784 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:55 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 114688 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:56 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 110592 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:57 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 110592 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:02:58 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 106496 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:03:00 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:03:02 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:03:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:04:00 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:04:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:04:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:04:53 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:12 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:26 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 106496 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:28 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 106496 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 65536 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 106496 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:36 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:48 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:52 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:05:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:21 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:36 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:49 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:50 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:52 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 106496 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 110592 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:55 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 114688 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:56 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 118784 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:57 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 118784 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:58 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 126976 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:06:59 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 131072 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:00 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 147456 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 151552 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:10 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 151552 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:13 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:16 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:21 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:22 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 151552 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:27 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 155648 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 151552 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:31 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 151552 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:42 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:51 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 81920 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:07:57 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:03 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:10 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:11 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:13 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 151552 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 143360 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:16 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 139264 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:17 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:22 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:39 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:44 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:57 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 131072 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:08:59 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:00 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:03 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:07 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:11 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:19 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 131072 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:29 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 131072 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:41 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 131072 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:09:42 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 126976 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:10:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 102400 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:36:59 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:39:49 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 69632 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[20-Jul-2019 13:40:03 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 73728 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[23-Jul-2019 01:48:45 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[23-Jul-2019 01:49:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21
+[23-Jul-2019 01:49:46 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 28672 bytes) in /home2/buckly/public_html/dev.pubg/maps/getmap.php on line 21

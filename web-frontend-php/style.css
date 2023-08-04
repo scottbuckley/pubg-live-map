@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Century Gothic Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Century Gothic Regular'), url('GOTHIC.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Regular';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Century Gothic Regular'), url('GOTHICB.woff') format('woff');
+}
+body {
+    font-family: 'Century Gothic Regular','CenturyGothic','AppleGothic',sans-serif;
+}
+#alignButton.left {
+    position:absolute;
+    bottom:5px;
+    left:5px;
+}
+#alignButton.right {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+#maintable {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+}
+
+#col_livestats {
+    vertical-align:top;
+    flex-grow:1;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap-reverse;
+    justify-content:flex-start;
+    align-content:flex-start;
+    /* flex-flow: column wrap-reverse; */
+    /* align-items:flex-end; */
+    /* padding-right:10px; */
+    padding-left:10px;
+}
+/* left-aligning everything for screens on the right */
+#maintable.left { flex-direction:row-reverse; }
+#maintable.left #col_livestats {
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+#maintable.left #col_roster { text-align:right; }
+#roster {
+    overflow-y:auto;
+    height:100%;
+    position:relative;
+}
+
+#col_roster {
+    position:relative;
+}
+#col_roster:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), #fff);
+    pointer-events: none;
+}
+#roster::-webkit-scrollbar { width: 0 !important }
+#roster { overflow: -moz-scrollbars-none; }
+#roster { -ms-overflow-style: none; }
+#mystats, .squadstatswrapper {
+    /* border:1px solid blue; */
+    max-width:200px;
+    display:inline-flex;
+    flex-direction:column;
+    text-align:left;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+#killsandhs {
+    display:flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+}
+#myColor {
+    display:inline-block;
+    background: #ffea00;
+    width: 1ex;
+    height: 1ex;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+div#playercontent {
+    display:none;
+}
+.statsname {
+    font-weight: bold;
+}
+#roster_header {
+    font-weight:bold;
+}
+.rosterblank {
+    display:none;
+}
+.gearimg {
+    width:45px;
+}
+#weapons {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    flex-basis:100%;
+}
+#wpnA, #wpnB {
+    /* border:1px solid #0005; */
+    padding-left:15%;
+    padding-right:15%;
+}
+/* .wpnimg[src=""] {
+  border:1px solid blue;
+} */
+.wpnimg {
+    max-width:95%;
+    min-width:95%;
+    margin-top:-25%;
+    margin-bottom:-25%;
+    /* max-height:100%; */
+    overflow:hidden;
+    /* border:1px solid red; */
+    transform: rotate(-40deg);
+}
+#inventory img {
+    width:40px;
+}

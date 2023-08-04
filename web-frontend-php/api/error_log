@@ -1,0 +1,1288 @@
+[21-Jun-2019 10:02:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:02:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('MrWraith', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:03:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:46
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(46): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(115): getSquadInfo('Forqoten')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(127): buildResponse('Forqoten', NULL)
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 46
+[21-Jun-2019 10:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function incrementStnum() in /home2/buckly/public_html/dev.pubg/api/setheadshots.php:22
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/setheadshots.php(27): processData(Array)
+#1 /home2/buckly/public_html/dev.pubg/api/setheadshots.php(30): go()
+#2 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/setheadshots.php on line 22
+[21-Jun-2019 11:48:49 UTC] PHP Warning:  A non-numeric value encountered in /home2/buckly/public_html/dev.pubg/api/common.php on line 33
+[21-Jun-2019 11:48:49 UTC] PHP Warning:  A non-numeric value encountered in /home2/buckly/public_html/dev.pubg/api/common.php on line 33
+[21-Jun-2019 11:48:49 UTC] PHP Warning:  A non-numeric value encountered in /home2/buckly/public_html/dev.pubg/api/common.php on line 33
+[21-Jun-2019 11:48:49 UTC] PHP Warning:  A non-numeric value encountered in /home2/buckly/public_html/dev.pubg/api/common.php on line 37
+[21-Jun-2019 11:48:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 near "0": syntax error in /home2/buckly/public_html/dev.pubg/api/common.php:42
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/common.php(42): PDO->prepare('0')
+#1 /home2/buckly/public_html/dev.pubg/api/setheadshots.php(5): writePlayerInfo(Array)
+#2 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/common.php on line 42
+[21-Jun-2019 12:00:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ensureFieldsPresent() in /home2/buckly/public_html/dev.pubg/api/setteam.php:26
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/setteam.php(38): processData(Array)
+#1 /home2/buckly/public_html/dev.pubg/api/setteam.php(41): go()
+#2 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/setteam.php on line 26
+[21-Jun-2019 12:01:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 26
+[21-Jun-2019 12:01:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 26
+[21-Jun-2019 12:01:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/setteam.php on line 12
+[21-Jun-2019 12:02:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 26
+[21-Jun-2019 12:02:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 26
+[21-Jun-2019 12:03:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 26
+[21-Jun-2019 12:03:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 26
+[21-Jun-2019 12:04:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 26
+[21-Jun-2019 12:04:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:04:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:05:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:05:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:05:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:05:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:05:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:05:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:06:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:06:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:06:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:06:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:06:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:06:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/buckly/public_html/dev.pubg/api/common.php on line 27
+[21-Jun-2019 12:52:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: roster in /home2/buckly/public_html/dev.pubg/api/common.php:82
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/common.php(82): PDO->prepare('\n        SELECT...')
+#1 /home2/buckly/public_html/dev.pubg/api/getroster.php(6): getPlayerInfo(Array)
+#2 /home2/buckly/public_html/dev.pubg/api/getroster.php(11): buildResponse()
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/common.php on line 82
+[21-Jun-2019 12:52:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: roster in /home2/buckly/public_html/dev.pubg/api/common.php:82
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/common.php(82): PDO->prepare('\n        SELECT...')
+#1 /home2/buckly/public_html/dev.pubg/api/getroster.php(6): getPlayerInfo(Array)
+#2 /home2/buckly/public_html/dev.pubg/api/getroster.php(11): buildResponse()
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/common.php on line 82
+[21-Jun-2019 12:55:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function buildResponse(), 1 passed in /home2/buckly/public_html/dev.pubg/api/poll.php on line 113 and exactly 2 expected in /home2/buckly/public_html/dev.pubg/api/poll.php:96
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(113): buildResponse('MrWraith')
+#1 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 96
+[21-Jun-2019 12:55:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function buildResponse(), 1 passed in /home2/buckly/public_html/dev.pubg/api/poll.php on line 113 and exactly 2 expected in /home2/buckly/public_html/dev.pubg/api/poll.php:96
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(113): buildResponse('MrWraith')
+#1 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 96
+[21-Jun-2019 12:55:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function buildResponse(), 1 passed in /home2/buckly/public_html/dev.pubg/api/poll.php on line 113 and exactly 2 expected in /home2/buckly/public_html/dev.pubg/api/poll.php:96
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(113): buildResponse('MrWraith')
+#1 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 96
+[21-Jun-2019 12:59:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[21-Jun-2019 12:59:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 ambiguous column name: x in /home2/buckly/public_html/dev.pubg/api/poll.php:17
+Stack trace:
+#0 /home2/buckly/public_html/dev.pubg/api/poll.php(17): PDO->prepare('\n      SELECT t...')
+#1 /home2/buckly/public_html/dev.pubg/api/poll.php(60): getSquadInfo('MrWraith')
+#2 /home2/buckly/public_html/dev.pubg/api/poll.php(69): buildResponse('MrWraith')
+#3 {main}
+  thrown in /home2/buckly/public_html/dev.pubg/api/poll.php on line 17
+[18-Jul-2019 10:05:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:55 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:57 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:57 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:05:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:01 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:01 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:03 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:06:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 76
+[18-Jul-2019 10:19:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:33 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:37 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:43 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:47 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:55 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:57 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:19:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:01 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:03 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:13 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:14 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:14 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:15 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:19 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:20 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:20 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:23 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:24 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:24 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:27 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:29 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:31 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:33 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:37 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:43 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:47 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:55 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:57 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:20:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:01 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:03 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:13 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:14 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:14 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:15 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:19 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:20 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:20 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:23 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:24 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:24 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:27 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:29 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:31 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:33 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:37 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:43 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
+[18-Jul-2019 10:21:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/buckly/public_html/dev.pubg/api/poll.php on line 78
